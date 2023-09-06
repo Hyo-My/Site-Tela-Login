@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Menu Superior</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h2>Logo</h2>                  
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-list-item"><a class="nav-link"  href="">Inicio</a></li>
+                    <li class="nav-list-item"><a class="nav-link" href="">Contatos</a></li>
+                    <li class="nav-list-item"><a class="nav-link" href="">Sobre</a></li>
+                </ul>
+            </div>
+
+            <div class="login-button">
+                <a href="#"><button>Entrar</button></a>
+            </div>
+
+            <button class="button" onclick="showMenu()"><span id="burg-mobile" class="material-icons">menu</span></button>
+
+        </nav>
+
+
+        <div class="menu-mobile">
+            <ul>
+                <li class="nav-list-item"><a class="nav-link"  href="">Menu</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="">Projetos</a></li>
+                <li class="nav-list-item"><a class="nav-link" href="">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <a href="#"><button>Entrar</button></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="login screen">
+
+            <div class="imagem">
+                <!--Imagem Colocada Pelo CSS-->
+            </div>
+
+            <div class="pre-login">
+                <div class="mobile-img">
+                    <!--Colocado no CSS-->
+                </div>
+                <h1>Tem uma Conta?</h1>
+                <h3>Faça Login Agora</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid consectetur ipsam est assumenda ad blanditiis aperiam.</p>
+
+            </div>
+
+            <div class="form-login">
+                <form action="" method="post">
+                    <input type="text" name="login" id="login" required placeholder="Usuário"> <br>
+                    <input type="password" name="senha" id="senha" required placeholder="Senha"> <br>
+                    <button type="submit">Enviar</button>
+                    <a href="#">Esqueçi Minha Senha</a>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>EXEMPLO DE SITE DE LOGIN FEITO POR <strong>MURILO</strong></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
