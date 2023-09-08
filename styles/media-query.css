@@ -67,7 +67,7 @@
     .main-content {
         width: 270px;
         height: 500px;
-        margin-top: 30px;
+        margin-top: 25px;
     }
 
     .main-content .imagem {
@@ -79,7 +79,7 @@
     }
 
     .pre-login h1 {
-        font-size: 22px !important;
+        font-size: 24px !important;
         padding: 20px 35px 0 !important;
         text-align: center;
     }
@@ -109,6 +109,7 @@
 
     .form-login {
         padding: 2px;
+        margin-top: -5px;
     }
 
     .form-login input {
