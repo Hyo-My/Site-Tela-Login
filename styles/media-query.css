@@ -131,4 +131,8 @@
     .submit-form button:hover {
         background-color: #00d1dc;
     }
+
+    footer {
+        display: none;
+    }
 }
